@@ -1,0 +1,182 @@
+/* structure CSS */
+
+body {
+    font-family: helvetica;
+}
+
+section {
+    padding-bottom: 50px !important;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.link {
+    font-style: italic;
+    color: #0077ED !important;
+    font-size: 18px;
+    margin-top: 15px;
+    display: block;
+    cursor: pointer;
+    width: 110px;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+/* Navbar CSS */
+
+.navbar-nav {
+    margin-right: unset !important;
+    margin-left: auto;
+}
+
+nav {
+    background: #373A3C;
+}
+
+nav a {
+    color: white !important;
+}
+
+
+/* Jumbotron CSS */
+
+.jumbotron {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/jumbotron.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+/* Work Section */
+
+/* .cardPadding { */
+    /* border: 1px solid rgba(0, 0, 0, .125);
+} */
+
+.flexRow {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: unset !important;
+}
+
+.skillContainer {
+    display:inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.skillContainer2 {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 17px;
+    margin-top: 50px;
+    
+}
+
+/* .skillContainer p {
+    margin-top: 15px;
+} */
+
+/* .skillBar {
+    height: 350px;
+    width: 23px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #ECEEEF;
+}
+
+.skillPurple {
+    height: 300px;
+    background-color: green;
+    width: 35px;
+    background: url(../images/purpleBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -6px;
+}
+
+.skillGreen {
+    height: 300px;
+    background-color: green;
+    width: 35px;
+    background: url(../images/greenBar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -6px;
+}
+
+.textCenter {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* Contact CSS */
+
+.contactMe {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/letterbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+} */
+
+.contactMe img {
+    max-width: 250px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    max-width: 320px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #373A3C;
+    padding: 15px;
+}
+
+.blockquote {
+    border-left: 2px solid white;
+    max-width: 580px;
+    margin: 1rem auto;
+}
+
+blockquote p {
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: white;
+}
